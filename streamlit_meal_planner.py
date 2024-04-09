@@ -25,9 +25,9 @@ OPEN_AI_API_KEY = st.secrets["openai_apikey"]
 openai.api_key = OPEN_AI_API_KEY
 openai.api_base = "https://api.openai.com/v1"
 
-st.set_page_config(page_title="AI - Meal Planner", page_icon="🍴")
+st.set_page_config(page_title="NutriGuru", page_icon="🍴")
 
-st.title("AI Meal Planner")
+st.title("NutriGuru")
 
 st.divider()
 
