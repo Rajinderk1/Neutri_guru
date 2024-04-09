@@ -1,11 +1,10 @@
-# AI Meal Planner App
-
-This project is a meal planning app that generates personalized meal plans based on a user's caloric needs and food
-preferences. It utilizes natural language processing to generate creative meal ideas using ingredients selected by the
+# NutriGuru
+This project is meal planner as well as meal calories detector. Based on the user input it will help the user as per their needs
+It utilizes natural language processing to generate creative meal ideas using ingredients selected by the
 algorithm.
 
 ## Features
-
+- Food image detection and calories predictor
 - Calculation of daily calorie needs based on user inputs like age, height, weight, and gender
 - Selection of user food preferences and allergies/restrictions
 - Generation of meal plans for breakfast, lunch, and dinner within the target calorie ranges
@@ -17,6 +16,7 @@ algorithm.
 - Python
 - Streamlit for app UI
 - Pandas for data manipulation
+- tensorflow (predefined model)
 - Anthropic Claude API for NLP completions
 
 ## Installation
